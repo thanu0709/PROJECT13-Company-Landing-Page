@@ -1,0 +1,1008 @@
+body {
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 820px;
+    background-image: url(images/home-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 820px;
+    background:linear-gradient(135deg, #121c55d3, #7ea0a9d7);
+}
+
+.container-professional {
+    width: 100%;
+    height: 455px;
+}
+
+.container-professional h4,h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.container-professional h4 {
+    margin-top: 17rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+
+.container-professional h1 {
+    font-size: 3.8rem;
+    font-weight: 300;
+}
+
+.container-button {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type="email"] {
+    padding: 18px 18px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    box-shadow: 66px 0px 0px 0px white;
+}
+
+button {
+    padding: 19px 30px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+#navMenu {
+    display: none;
+}
+
+#catherine-div{
+    display: none;
+}
+
+.container-softlanding h2,nav,h3 {
+    display: inline-block;
+    color: white;
+}
+
+.container-softlanding h2 {
+    margin: 45px 131px 0px 150px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.container-softlanding h3 {
+    margin-left: 17rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: white;
+}
+
+.container-softlanding nav a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 53px;
+    color: white;
+}
+
+.container-softlanding button {
+    display: none;
+}
+
+.section-what {
+    width: 100%;
+    height: 800px;
+}
+
+.text-header {
+    width: 49%;
+    height: 800px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-laptop {
+    width: 49%;
+    height: 800px;
+    display: inline-block;
+}
+
+.image-laptop img {
+    height: 750px;
+}
+
+.text-header h2{
+    font-size: 4rem;
+    font-weight: 300;
+    margin: 77px 0px 50px 115px;
+}
+
+#btn1 {
+    margin-left: 88px;
+}
+
+.text-header button {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.text-header button:hover {
+    box-shadow: 0px 05px 0px 0px rgb(100, 203, 100);
+    border-radius: 0px;
+    border: none;
+    }
+
+.text-header h3,p {
+    color: black;
+    margin: 28px 0px 0px 120px;
+
+}
+
+.text-header h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.text-header p {
+    font-size: 1.2rem;
+    margin-left: 7.5rem;
+}
+
+.section-professional {
+    width: 100%;
+    height: 1085px;
+    background-color: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-professional h1{
+    color: black;
+    padding-top: 7rem;
+    padding-bottom: 0%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.main-div {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.contend-div {
+    width: 400px;
+    height: 755px;
+    background-color: white;
+}
+
+.image-div {
+    width: 400px;
+    height: 382px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-div img{
+    width: 100%;
+}
+
+.text-div {
+    width: 400px;
+    height: 280px;
+}
+
+.text-div img {
+    margin: auto;
+    margin-bottom: -67px;
+}
+
+#text-div-image {
+    position: relative;
+}
+
+#text-div-image img {
+    padding-top: 28px;
+    z-index: 1;
+}
+
+.text-div h1,h3,p{
+    margin: 0%;
+    text-align: left;
+    padding-top: 10px;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+.text-div h1{
+    margin-top: 3.5rem;
+    font-size: 2rem;
+    padding-bottom: 0%;
+}
+
+.text-div h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.text-div p {
+    font-size: 1.2rem;
+}
+
+.section-student {
+    width: 100%;
+    height: 800px;
+    background-color: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-student h1 {
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 0%;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.contend-div-student {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: 2px;
+}
+
+.main-div-student {
+    width: 80%;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+#student-shadow {
+    border-radius: 0px;
+    border: none;
+    background-color: white;
+}
+
+#student-shadow hr {
+    width: 90%;
+    margin: auto;
+}
+
+#student-shadow2 hr {
+    width: 90%;
+    margin: auto;
+}
+
+.student h1 {
+    color: black;
+    padding-top: 0.5rem;
+    padding-bottom: 0%;
+    font-size: 2.5rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.student-content {
+    height: 240px;
+}
+
+.student-content ul{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 20px;
+    padding-left: 0%;
+}
+
+.student-content li{
+    margin-top: 1rem;
+}
+
+#student-shadow2 h2{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+#student-shadow2 button{
+    padding: 9px 10px;
+    border: none;
+    background-color: #3ed160;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+    margin-left: 8rem;
+}
+
+footer {
+    height: 700px;
+}
+
+footer h1 {
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 2.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+.container-footer {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-footer input[type="text"] {
+    padding: 18px 87px 15px 7px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 2px -2px rgb(189, 182, 182);
+    
+}
+
+.container-footer input[type="email"] {
+    padding: 18px 70px 15px 7px;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    font-size: 1.2rem;
+    box-shadow: 0px 4px 2px -2px rgb(189, 182, 182);
+}
+
+.container-footer button {
+    padding: 15px 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-left: 15px;
+}
+
+.container-footer textarea {
+    display: block;
+    color: gray;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    padding: 0px 46rem 10rem 0px;
+    border: none;
+    box-shadow: 0px 4px 2px -2px rgb(189, 182, 182);
+}
+
+.container-footer p {
+    margin-top: 7rem;
+    margin-left: 0%;
+    font-size: 1.3rem;
+    color: gray;
+}
+
+span {
+    color: black;
+    margin-right: 17rem;
+}
+
+.container-footer i {
+    color: black;
+    margin-left: 1.5rem;
+}
+
+/* Extra small devices (phones) */
+@media  (max-width: 575.98px) {
+    header {
+        width: 100%;
+        height: 1150px;
+    }
+
+    .container {
+        width: 100%;
+        height: 1150px;
+    }
+
+    .container-softlanding {
+        background-color: white;
+        height: 70px;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+        position: relative;
+    }
+
+
+    .container-softlanding h2 {
+        margin: 10px 20px;
+        font-size: 1.8rem;
+        color: black;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-softlanding button {
+        background-image: url(images/icons8-menu-96.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white; 
+        width: 50px;
+        height: 50px;
+        border: none;
+        padding: 15px; 
+        position: absolute;
+        top: 10px;
+        right: 27px;
+    }
+
+    #navMenu {
+        display: none; /* Initially hide the navigation menu */
+    }
+
+    #navMenu-h3 {
+        display: none; /* Initially hide the navigation menu */
+    }
+
+    #catherine-div{
+        display: inline-block;
+        height: 755px;
+    }
+
+    #catherine-main-div {
+        display: none;
+    }
+    
+    .button {
+        cursor: pointer;
+        
+    }
+
+    .container-professional h4 {
+        margin-top: 11rem;
+        font-size: 1.2rem;
+        font-weight: 500;
+        word-spacing: 2px;
+        letter-spacing: 5px;
+    }
+
+    .container-softlanding button {
+        display: inline;
+    }
+    
+
+    .container-softlanding nav a,h3 {
+        display: none;
+    }
+
+    .container-button {
+        margin-top: 35px;
+    }
+    
+    input[type="email"] {
+        padding: 18px 8px;
+        font-size: 1rem;
+    }
+    
+    button {
+        padding: 18px 14px;
+    }
+
+    #navMenu {
+        width: 100%;
+        height: 270px;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 40px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 25px;
+        list-style-type: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #navMenu li{
+        margin-top: 25px;
+    }
+
+    .section-what {
+        width: 100%;
+        height: 1145px;
+    }
+
+    .text-header {
+        width: 100%;
+        height: 780px;
+    }
+
+    .text-header h2{
+        margin: auto;
+        margin-top: 40px;
+        margin-left: 20px;
+        font-size: 2.5rem;
+    }
+
+    .text-header button {
+        background-color: white;
+        color: black;
+        font-size: 20px;
+    }
+
+    #btn1{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 05px;
+        margin-bottom: 50px;
+    }
+
+    .text-header h3,p {
+        color: black;
+        margin: 25px 0px 38px 20px;
+    
+    }
+
+    .text-header h3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    .text-header p {
+        font-size: 1.2rem;
+        margin-left: 1.5rem;
+    }
+
+    .image-laptop {
+        width: 100%;
+        height: 355px;
+        display: block;
+    }
+
+    .image-laptop img {
+        width: 100%;
+        height: 330px;
+        
+    }
+
+    .section-professional {
+        width: 100%;
+        height: 2470px;
+    }
+
+    .section-professional h1{
+        color: black;
+        padding-top: 1rem;
+        padding-bottom: 0%;
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    .section-professional h3{
+        color: black;
+        display: inline-block;
+    }
+    
+    .main-div {
+        width: 100%;
+        height: 2280px;
+        margin: auto;
+        display: block;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .contend-div {
+        width: 100%;
+    }
+
+    .image-div {
+        width: 100%;
+        height: 370px;
+    }
+
+    .text-div {
+        width: 100%;
+    }
+
+    .section-student {
+        width: 100%;
+        height: 1750px;
+    }
+
+    .main-div-student {
+        width: 100%;
+        height: 1535px;
+        margin: auto;
+        display: block;
+        justify-content: row;
+        margin-top: 3rem;
+    }
+
+    .contend-div-student {
+        width: 385px;
+        height: 500px;
+        margin: auto;
+    }
+
+    #student-shadow2 button {
+        margin-left: 5rem;
+    }
+
+    footer {
+        height: 700px;
+    }
+
+    .main-footer {
+        width: 90%;
+        height: 230px;
+        justify-content: center;
+    }
+
+    .container-footer input[type="text"] {
+        margin-bottom: 12px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-footer input[type="email"] {
+        margin-bottom: 12px;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-footer button {
+        padding: 15px 100px;
+        border: none;
+        background-color: black;
+        color: white;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 1rem;
+        margin-left: 15px;
+    }
+
+    .container-footer textarea {
+        margin-top: 2rem;
+        padding: 0px 7rem 6rem 0px;
+    }
+
+    .container-footer p {
+        margin-top: 2rem;
+        margin-left: 0%;
+        font-size: 0.8rem;
+        text-align: center;
+    } 
+
+    span {
+        display: block;
+        margin-right: 0rem;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .container-footer i {
+        color: black;
+        padding: 12px 20px;
+        margin-left: 0rem;
+        font-size: 1.5rem;
+    }
+
+}
+
+/* small devices (landscape phones, tablets) */
+@media  (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container-softlanding {
+        background-color: white;
+        height: 70px;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+        position: relative;
+    }
+
+
+    .container-softlanding h2 {
+        margin: 10px 20px;
+        font-size: 1.8rem;
+        color: black;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-softlanding button {
+        background-image: url(images/icons8-menu-96.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white; 
+        width: 50px;
+        height: 50px;
+        border: none;
+        padding: 15px; 
+        position: absolute;
+        top: 10px;
+        right: 80px;
+    }
+
+    #navMenu {
+        display: none; /* Initially hide the navigation menu */
+    }
+
+    #navMenu-h3 {
+        display: none; /* Initially hide the navigation menu */
+    }
+    
+    .button {
+        cursor: pointer;
+        
+    }
+
+    .container-softlanding button {
+        display: inline;
+    }
+    
+
+    .container-softlanding nav a,h3 {
+        display: none;
+    }
+
+    #navMenu {
+        width: 100%;
+        height: 270px;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 40px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 25px;
+        list-style-type: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #navMenu li{
+        margin-top: 25px;
+    }
+
+    .section-what {
+        width: 100%;
+        height: 745px;
+    }
+
+    .text-header {
+        width: 100%;
+        height: 745px;
+    }
+
+    .text-header h2{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    #btn1{
+        margin-top: 15px;
+        margin-left: -10px;
+        margin-bottom: 50px;
+    }
+
+    .text-header h3,p {
+        color: black;
+        margin: 0px 0px 38px 20px;
+        
+    }
+
+    .text-header h3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        display: block;;
+    }
+    
+    .text-header p {
+        font-size: 1.2rem;
+    }
+
+    .image-laptop {
+        width: 100%;
+        height: 465px;
+        display: inline-block;
+    }
+
+    footer {
+        height: 1000px;
+    }
+
+}
+
+/* Medium devices (tablets) */
+@media  (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container {
+        width: 100%;
+        height: 1000px;
+    }
+
+    .container-softlanding {
+        background-color: white;
+        height: 70px;
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+        position: relative;
+    }
+
+
+    .container-softlanding h2 {
+        margin: 10px 20px;
+        font-size: 1.8rem;
+        color: black;
+        width: 100%;
+        text-align: left;
+    }
+
+    .container-softlanding button {
+        background-image: url(images/icons8-menu-96.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white; 
+        width: 50px;
+        height: 50px;
+        border: none;
+        padding: 15px; 
+        position: absolute;
+        top: 10px;
+        right: 50px;
+    }
+
+    #navMenu {
+        display: none; /* Initially hide the navigation menu */
+    }
+
+    #navMenu-h3 {
+        display: none; /* Initially hide the navigation menu */
+    }
+    
+    .button {
+        cursor: pointer;
+        
+    }
+
+    .container-softlanding button {
+        display: inline;
+    }
+    
+
+    .container-softlanding nav a,h3 {
+        display: none;
+    }
+
+    #navMenu {
+        width: 100%;
+        height: 270px;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 40px;
+        text-decoration: none;
+        text-align: center;
+        margin-left: 0%;
+        margin-top: 25px;
+        list-style-type: none;
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    #navMenu li{
+        margin-top: 25px;
+    }
+
+    .section-what {
+        width: 100%;
+        height: 665px;
+    }
+
+    .text-header {
+        width: 100%;
+        height: 665px;
+    }
+
+    .text-header h2{
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+
+    #btn1{
+        margin-top: 15px;
+        margin-left: -10px;
+        margin-bottom: 50px;
+    }
+
+    .text-header h3,p {
+        color: black;
+        margin: 0px 0px 38px 20px;
+        
+    }
+
+    .text-header h3 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        display: block;;
+    }
+    
+    .text-header p {
+        font-size: 1.2rem;
+    }
+
+    .image-laptop {
+        width: 100%;
+        height: 535px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .image-laptop img{
+        width: 60%;
+    }
+}
+
+/* Larger devices (desktop) */
+@media  (min-width: 992px) and (max-width: 1199.98px) {
+
+    .container-softlanding h2 {
+        margin: 20px 10px 0px 40px;
+        font-size: 2rem;
+    }
+
+    .container-softlanding nav a {
+        margin-left: 35px;
+    }
+
+    .container-softlanding h3 {
+        margin-left: 4rem;
+        font-size: 1.3rem;
+        font-weight: 400;
+    }
+}
